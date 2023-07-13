@@ -35,7 +35,7 @@ body {
   background-size: cover; */
   /* min-height: calc(100vh - 120px); */
 
-  margin: 120px auto 0;
+  margin: 120px auto;
   padding: 0 134px;
 }
 
@@ -438,7 +438,7 @@ iframe {
 
   body {
     font-size: 20px;
-    margin: 60px auto 0;
+    margin: 60px auto;
     padding: 0 12px;
 
     height: 100%;
