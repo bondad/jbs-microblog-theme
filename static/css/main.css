@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-height: 100vh;
+  /* background-height: 100vh; */
 
   margin: 120px auto;
   padding: 0 134px;
@@ -435,7 +435,7 @@ iframe {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-height: 100vh;
+    /* background-height: 100vh; */
   }
 
   img.site-image {
