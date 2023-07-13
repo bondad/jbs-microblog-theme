@@ -30,7 +30,7 @@ body {
   color: var(--text);
 
   /* background-color: var(--background); */
-  /* /* background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%); */
+  background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
