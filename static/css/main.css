@@ -18,14 +18,16 @@ body {
   line-height: 150%;
   font-weight: normal;
   color: var(--text);
+
   /* background-color: var(--background); */
-  margin: 120px auto;
-  padding: 0 32px;
   background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-height: 100vh;
+
+  margin: 120px auto;
+  padding: 0 134px;
 }
 
 /** Images */
@@ -335,8 +337,9 @@ iframe {
   margin: 20px 0;
   width: 100%;
   max-width: 100%;
-  min-height: 510px;
+  min-height: 64px;
   overflow: hidden;
+  display:block;
 }
 
 /** Archive **/
@@ -428,6 +431,11 @@ iframe {
     font-size: 20px;
     margin: 60px auto;
     padding: 0 12px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-height: 100vh;
   }
 
   img.site-image {
