@@ -5,20 +5,11 @@
   --accent: #45C4B0;
 }
 
-/* html {
-  background-image: linear-gradient(#64e9e6 0,#64e9e6 0,#4687c6 50%,#4687c6 50%,#a12e9c 100%,#a12e9c 100%);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-} */
-
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; 
 }
-
 
 /** Basic styling */
 body {
@@ -274,7 +265,7 @@ footer p {
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .contact-list, .social-media-list {
@@ -441,19 +432,7 @@ iframe {
     font-size: 20px;
     margin: 60px auto;
     padding: 0 12px;
-    /* padding-top: env(safe-area-inset-top); */
 
-    /* height: 100%; */
-    /* padding-top: calc(env(safe-area-inset-top));
-    padding-bottom: calc(env(safe-area-inset-bottom));
-    padding-left: calc(env(safe-area-inset-left) + 12px);
-    padding-right: calc(env(safe-area-inset-right) + 12px); */
-
-/* 
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
     min-height: calc(100vh - 60px);
   }
 
