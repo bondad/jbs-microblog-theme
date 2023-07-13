@@ -2,7 +2,13 @@
 
   <div class="wrapper">
 
-    <p><span class="copy">©</span> <span>{{ now.Year }},</span> <span class="footer-title">{{- .Site.Title -}}</span></p>
+    <p>
+      <span class="copy">©</span> 
+      <span>{{ now.Year }}</span> 
+      <span class="footer-title">{{- .Site.Title -}}</span> 
+      <a class="page-link" href="/feed.xml">RSS</a> 
+      <a class="page-link" href="/feed.json">JSON</a>
+    </p>
 
   </div>
 
