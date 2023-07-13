@@ -441,7 +441,7 @@ iframe {
     font-size: 20px;
     margin: 60px auto;
     padding: 0 12px;
-    padding-top: env(safe-area-inset-top);
+    /* padding-top: env(safe-area-inset-top); */
 
     /* height: 100%; */
     /* padding-top: calc(env(safe-area-inset-top));
