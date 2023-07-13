@@ -11,6 +11,16 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   padding: 0; 
 }
 
+html {
+  background-image: linear-gradient(#64e9e6 0,#64e9e6 0,#4687c6 50%,#4687c6 50%,#a12e9c 100%,#a12e9c 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
 /** Basic styling */
 body {
   font-family: 'Rubik', sans-serif;
@@ -20,10 +30,10 @@ body {
   color: var(--text);
 
   /* background-color: var(--background); */
-  background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
+  /* background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   min-height: calc(100vh - 120px);
 
   margin: 120px auto 0;
@@ -432,16 +442,17 @@ iframe {
     margin: 60px auto 0;
     /* padding: 0 12px; */
 
+    height: 100%;
     padding-top: calc(env(safe-area-inset-top));
     padding-bottom: calc(env(safe-area-inset-bottom));
     padding-left: calc(env(safe-area-inset-left) + 12px);
     padding-right: calc(env(safe-area-inset-right) + 12px);
 
-
+/* 
     
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover; */
     min-height: calc(100vh - 60px);
   }
 
