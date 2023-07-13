@@ -1,7 +1,7 @@
 /** Color customization **/
 :root {
   --text: #F1F1F1;
-  --background: #012030;
+  --background: #64e9e6;
   --accent: #45C4B0;
 }
 
@@ -28,7 +28,7 @@ body {
   font-weight: normal;
   color: var(--text);
 
-  /* background-color: var(--background); */
+  background-color: var(--background);
   background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
   background-repeat: no-repeat;
   background-position: center center;
