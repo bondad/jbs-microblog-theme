@@ -207,12 +207,21 @@ img.site-image {
   margin-bottom: 40px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
 .site-title {
   font-size: 56px;
   letter-spacing: -.25px;
   margin: 0;
   color: var(--text);
   text-decoration: none;
+}
+.site-title {
+  margin-left: 20px;
 }
 
 .site-title, .site-title:visited {
@@ -426,6 +435,16 @@ iframe {
 
 /** Mobile **/
 @media screen and (max-width: 800px) {
+
+  .header-container {
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .site-title {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 
   body {
 
