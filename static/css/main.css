@@ -191,12 +191,11 @@ pre > code {
 
   .site-image {
     width: 30vw; /* responsive image size for mobile screens */
-    /* 30vw will ensure that the image width is always 30% of the viewport width */
+    margin-right: 4vw; /* adds responsive space between the image and the title */
   }
 
   .site-title {
-    margin-top: 0; /* removes the top margin on mobile */
-    font-size: 4vw; /* scales down the title on mobile */
+    font-size: 4vw; /* responsive font size for mobile screens, adjust as needed */
   }
 }
 
@@ -215,6 +214,7 @@ img.site-image {
   border-radius: 100px;
   width: 100px;
   margin-bottom: 40px;
+  margin-right: 40px;
   opacity: 0.5;
 }
 
@@ -225,6 +225,7 @@ img.site-image {
   flex-wrap: nowrap; /* prevents items from wrapping to next line */
   text-align: center; /* centers text within blocks */
   width: 100%; /* takes full width of its parent */
+  padding: 0 20px; /* adds padding to the left and right of the container */
 }
 
 /* .site-title {
@@ -234,13 +235,14 @@ img.site-image {
   color: var(--text);
   text-decoration: none;
 } */
+
 .site-title {
   opacity: 0.5; /* makes the title 50% transparent */
   white-space: nowrap; /* prevents title from breaking into multiple lines */
   display: flex;
   align-items: center; /* aligns text to the center of the block (with respect to the image) */
   justify-content: center; /* centers text within the block */
-  font-size: 4vw; /* responsive font size, adjust as needed */
+  font-size: 3vw; /* responsive font size, adjust as needed */
 }
 
 .site-title, .site-title:visited {
@@ -458,10 +460,10 @@ iframe {
   body {
 
     font-size:4vw;
-    margin: 30px auto; 
+    margin: 60px auto; 
     padding: 0 12px;
 
-    min-height: calc(100vh - 30px);
+    min-height: calc(100vh - 60px);
   }
 
   .header-container {
