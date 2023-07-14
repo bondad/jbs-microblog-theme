@@ -196,7 +196,7 @@ pre > code {
 
   .site-title {
     margin-top: 0; /* removes the top margin on mobile */
-    font-size: 20px; /* scales down the title on mobile */
+    font-size: 18px; /* scales down the title on mobile */
   }
 }
 
@@ -215,6 +215,7 @@ img.site-image {
   border-radius: 100px;
   width: 100px;
   margin-bottom: 40px;
+  opacity: 0.5;
 }
 
 .header-container {
