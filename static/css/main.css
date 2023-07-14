@@ -196,7 +196,7 @@ pre > code {
 
   .site-title {
     margin-top: 0; /* removes the top margin on mobile */
-    font-size: 16px; /* scales down the title on mobile */
+    font-size: 18px; /* scales down the title on mobile */
   }
 }
 
@@ -463,7 +463,7 @@ iframe {
 
   body {
 
-    font-size: 20px;
+    font-size:18px;
     margin: 60px auto;
     padding: 0 12px;
 
