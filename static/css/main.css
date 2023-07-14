@@ -188,6 +188,16 @@ pre > code {
     padding-right: 15px;
     padding-left: 15px; 
   }
+
+  .site-image {
+    width: 50px; /* scales down the image on mobile */
+    margin-bottom: 0; /* removes the bottom margin on mobile */
+  }
+
+  .site-title {
+    margin-top: 0; /* removes the top margin on mobile */
+    font-size: 20px; /* scales down the title on mobile */
+  }
 }
 
 /** Clearfix */
@@ -209,19 +219,23 @@ img.site-image {
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: start;
+  align-items: center; /* aligns items vertically in the middle */
+  justify-content: center; /* centers items horizontally */
+  flex-wrap: nowrap; /* prevents items from wrapping to next line */
+  text-align: center; /* centers text within blocks */
 }
 
-.site-title {
+/* .site-title {
   font-size: 56px;
   letter-spacing: -.25px;
   margin: 0;
   color: var(--text);
   text-decoration: none;
-}
+} */
 .site-title {
   margin-left: 20px;
+  opacity: 0.5; /* makes the title 50% transparent */
+  white-space: nowrap; /* prevents title from breaking into multiple lines */
 }
 
 .site-title, .site-title:visited {
