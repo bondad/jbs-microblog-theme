@@ -455,6 +455,15 @@ iframe {
 /** Mobile **/
 @media screen and (max-width: 800px) {
 
+  body {
+
+    font-size:4vw;
+    margin: 30px auto; 
+    padding: 0 12px;
+
+    min-height: calc(100vh - 30px);
+  }
+
   .header-container {
     flex-direction: row; /* makes sure items are in a row */
   }
@@ -462,15 +471,6 @@ iframe {
   .site-title {
     margin-left: 0;
     margin-top: 20px;
-  }
-
-  body {
-
-    font-size:4vw;
-    margin: 60px auto;
-    padding: 0 12px;
-
-    min-height: calc(100vh - 60px);
   }
 
   img.site-image {
