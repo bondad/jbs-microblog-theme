@@ -190,13 +190,13 @@ pre > code {
   }
 
   .site-image {
-    width: 50px; /* scales down the image on mobile */
-    margin-bottom: 0; /* removes the bottom margin on mobile */
+    width: 30vw; /* responsive image size for mobile screens */
+    /* 30vw will ensure that the image width is always 30% of the viewport width */
   }
 
   .site-title {
     margin-top: 0; /* removes the top margin on mobile */
-    font-size: 16px; /* scales down the title on mobile */
+    font-size: 4vw; /* scales down the title on mobile */
   }
 }
 
@@ -235,9 +235,12 @@ img.site-image {
   text-decoration: none;
 } */
 .site-title {
-  margin-left: 20px;
   opacity: 0.5; /* makes the title 50% transparent */
   white-space: nowrap; /* prevents title from breaking into multiple lines */
+  display: flex;
+  align-items: center; /* aligns text to the center of the block (with respect to the image) */
+  justify-content: center; /* centers text within the block */
+  font-size: 4vw; /* responsive font size, adjust as needed */
 }
 
 .site-title, .site-title:visited {
@@ -473,6 +476,7 @@ iframe {
   img.site-image {
     width: 50px;
     margin-bottom: 0px;
+    margin-right: 20px;
   }
 
   .page-content {
