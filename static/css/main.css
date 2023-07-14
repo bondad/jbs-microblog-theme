@@ -214,8 +214,8 @@ pre > code {
 img.site-image {
   border-radius: 100px;
   width: 100px;
-  /* margin-bottom: 40px; */
-  opacity: 0.5;
+  margin-bottom: 40px;
+  opacity: 0.34;
 }
 
 .header-container {
