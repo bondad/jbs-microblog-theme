@@ -228,7 +228,7 @@ img.site-image {
 .header-container {
   display: flex;
   align-items: center; /* aligns items vertically in the middle */
-  justify-content: left; /* centers items horizontally */
+  justify-content: center; /* centers items horizontally */
   flex-wrap: nowrap; /* prevents items from wrapping to next line */
   text-align: center; /* centers text within blocks */
   /* width: 100%; takes full width of its parent */
@@ -296,6 +296,7 @@ footer p {
 /** Site footer */
 .site-footer {
   padding: 0;
+  justify-content: center;
 }
 
 .footer-heading {
@@ -480,7 +481,7 @@ iframe {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     /* justify-content: space-evenly; */
     flex-direction: row;
     text-align: center; 
