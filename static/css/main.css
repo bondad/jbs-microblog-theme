@@ -228,7 +228,7 @@ img.site-image {
 .header-container {
   display: flex;
   align-items: center; /* aligns items vertically in the middle */
-  justify-content: center; /* centers items horizontally */
+  justify-content: left; /* centers items horizontally */
   flex-wrap: nowrap; /* prevents items from wrapping to next line */
   text-align: center; /* centers text within blocks */
   /* width: 100%; takes full width of its parent */
