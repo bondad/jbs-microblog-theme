@@ -474,7 +474,7 @@ iframe {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     /* justify-content: space-evenly; */
     flex-direction: row;
     text-align: center; 
