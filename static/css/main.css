@@ -227,20 +227,13 @@ img.site-image {
 
 .header-container {
   display: flex;
-  align-items: center; /* aligns items vertically in the middle */
-  justify-content: center; /* centers items horizontally */
+  align-items: center; 
+  justify-content: left; /* left aligns items horizontally */
   flex-wrap: nowrap; /* prevents items from wrapping to next line */
   text-align: center; /* centers text within blocks */
   /* width: 100%; takes full width of its parent */
 }
 
-/* .site-title {
-  font-size: 56px;
-  letter-spacing: -.25px;
-  margin: 0;
-  color: var(--text);
-  text-decoration: none;
-} */
 .site-title {
   opacity: 0.5; /* makes the title 50% transparent */
   white-space: nowrap; /* prevents title from breaking into multiple lines */
