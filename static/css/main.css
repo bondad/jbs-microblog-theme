@@ -26,7 +26,7 @@ body {
   background-size: cover;
   
   margin: 90px auto 0;
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh);
   padding: 0 134px;
 }
 
