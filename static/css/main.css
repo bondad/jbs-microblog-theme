@@ -20,7 +20,30 @@ body {
   color: var(--text);
 
   /* background-color: var(--background); */
-  background-image: linear-gradient(rgb(100, 233, 230) 0%, rgb(100, 233, 230) 0%, rgb(70, 135, 198) 50%, rgb(70, 135, 198) 50%, rgb(161, 46, 156) 100%, rgb(161, 46, 156) 100%);
+  /* background-image: linear-gradient(
+     rgba(100, 233, 230, 0.8) 0%,
+     rgba(70, 135, 198, 0.8) 50%,
+     rgba(161, 46, 156, 0.8) 100%
+  ); */
+  background-image: linear-gradient(
+    rgb(108, 185, 250) 0%,   /* Light Blue */
+    rgb(84, 166, 249) 6.25%, /* Slightly Darker Blue */
+    rgb(88, 156, 249) 12.5%, /* Slightly Darker Blue */
+    rgb(110, 162, 249) 18.75%, /* Medium Blue */
+    rgb(128, 135, 248) 25%, /* Soft Blue */
+    rgb(162, 134, 248) 31.25%, /* Soft Violet */
+    rgb(181, 112, 246) 37.5%, /* Violet */
+    rgb(193, 127, 242) 43.75%, /* Medium Violet */
+    rgb(209, 119, 215) 50%, /* Medium Pinkish Violet */
+    rgb(214, 136, 224) 56.25%, /* Light Pinkish Violet */
+    rgb(219, 134, 212) 62.5%, /* Light Pinkish Violet */
+    rgb(224, 139, 207) 68.75%, /* Light Pink */
+    rgb(230, 125, 157) 75%, /* Soft Pinkish Red */
+    rgb(233, 128, 122) 81.25%, /* Soft Coral */
+    rgb(235, 136, 90) 87.5%, /* Coral */
+    rgb(238, 151, 68) 93.75%, /* Orange */
+    rgb(240, 170, 64) 100% /* Light Orange */
+);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
