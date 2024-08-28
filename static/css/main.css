@@ -27,37 +27,11 @@ body {
   ); */
   background-color: var(--background);
   background-image: linear-gradient(
-      rgb(108, 185, 250),   /* Light Blue */
-      rgb(94, 175, 249),    /* Intermediate Blue */
-      rgb(84, 166, 249),    /* Slightly Darker Blue */
-      rgb(88, 156, 249),    /* Slightly Darker Blue */
-      rgb(110, 162, 249),   /* Medium Blue */
-      rgb(119, 148, 248),   /* Intermediate Blue */
-      rgb(128, 135, 248),   /* Soft Blue */
-      rgb(145, 135, 248),   /* Intermediate Violet */
-      rgb(162, 134, 248),   /* Soft Violet */
-      rgb(171, 123, 247),   /* Intermediate Violet */
-      rgb(181, 112, 246),   /* Violet */
-      rgb(187, 119, 244),   /* Intermediate Violet */
-      rgb(193, 127, 242),   /* Medium Violet */
-      rgb(201, 123, 229),   /* Intermediate Pinkish Violet */
-      rgb(209, 119, 215),   /* Medium Pinkish Violet */
-      rgb(212, 127, 220),   /* Intermediate Pinkish Violet */
-      rgb(214, 136, 224),   /* Light Pinkish Violet */
-      rgb(216, 134, 219),   /* Intermediate Pinkish Violet */
-      rgb(219, 134, 212),   /* Light Pinkish Violet */
-      rgb(221, 136, 209),   /* Intermediate Pink */
-      rgb(224, 139, 207),   /* Light Pink */
-      rgb(227, 132, 182),   /* Intermediate Pinkish Red */
-      rgb(230, 125, 157),   /* Soft Pinkish Red */
-      rgb(231, 127, 140),   /* Intermediate Coral */
-      rgb(233, 128, 122),   /* Soft Coral */
-      rgb(234, 132, 106),   /* Intermediate Coral */
-      rgb(235, 136, 90),    /* Coral */
-      rgb(237, 144, 79),    /* Intermediate Orange */
-      rgb(238, 151, 68),    /* Orange */
-      rgb(239, 160, 66),    /* Intermediate Light Orange */
-      rgb(240, 170, 64)     /* Light Orange */
+      rgb(108, 185, 250) 0%,   /* Light Blue */
+      rgb(128, 135, 248) 25%,  /* Soft Blue */
+      rgb(162, 134, 248) 50%,  /* Soft Violet */
+      rgb(214, 136, 224) 75%,  /* Light Pinkish Violet */
+      rgb(240, 170, 64) 100%   /* Light Orange */
   );
   background-repeat: no-repeat;
   background-position: center center;
