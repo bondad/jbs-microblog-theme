@@ -1,13 +1,7 @@
 /** Color customization **/
 :root {
   --text: #F1F1F1;
-  --background: linear-gradient(
-    rgb(108, 185, 250) 0%,   /* Light Blue */
-    rgb(128, 135, 248) 25%,  /* Soft Blue */
-    rgb(162, 134, 248) 50%,  /* Soft Violet */
-    rgb(214, 136, 224) 75%,  /* Light Pinkish Violet */
-    rgb(240, 170, 64) 100%   /* Light Orange */
-);
+  --background: #64e9e6;
   --accent: #EEAE4C;
 }
 
@@ -39,10 +33,9 @@ body {
       rgb(214, 136, 224) 75%,  /* Light Pinkish Violet */
       rgb(240, 170, 64) 100%   /* Light Orange */
   );
-  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-size: cover;
   
   margin: 90px auto 0;
   min-height: calc(100vh);
