@@ -3,14 +3,6 @@
 
   <header class="post-header"> 
 	  
-	{{ if isset .Params "categories" }}
-		{{ range $index, $category := .Params.categories }}
-	    	{{ $href := printf "/categories/%s" (urlize $category) | absURL }}
-	    	{{ if gt $index 0 }}<span class="seperator">,</span> {{ end }}
-	    	<h3><a href="{{ $href }}">{{ $category }}</a></h3>
-		{{ end }}
-    {{ end }}
-	  
 	{{ if .Title }}
 	  	<h1 class="p-name">{{ .Title }}</h1>
   	{{ end }}
@@ -20,6 +12,13 @@
 	{{ .Content }}
   </article>
   
+  {{ if isset .Params "categories" }}
+		{{ range $index, $category := .Params.categories }}
+	    	{{ $href := printf "/categories/%s" (urlize $category) | absURL }}
+	    	{{ if gt $index 0 }}<span class="seperator">,</span> {{ end }}
+	    	<h3><a href="{{ $href }}">{{ $category }}</a></h3>
+		{{ end }}
+    {{ end }}
   <p class="u-url date">{{ .Date.Format "Monday January 2, 2006" }}</p>
 
 </div>
