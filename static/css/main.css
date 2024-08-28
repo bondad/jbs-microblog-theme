@@ -1,7 +1,13 @@
 /** Color customization **/
 :root {
   --text: #F1F1F1;
-  --background: #64e9e6;
+  --background: linear-gradient(
+    rgb(108, 185, 250) 0%,   /* Light Blue */
+    rgb(128, 135, 248) 25%,  /* Soft Blue */
+    rgb(162, 134, 248) 50%,  /* Soft Violet */
+    rgb(214, 136, 224) 75%,  /* Light Pinkish Violet */
+    rgb(240, 170, 64) 100%   /* Light Orange */
+);
   --accent: #EEAE4C;
 }
 
